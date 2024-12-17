@@ -36,18 +36,32 @@
           then $20/mo. thereafter</p>
       </div>
       <form class="bg-white flex flex-col p-8 rounded-2xl lg:w-full ">
-        <input type="text"
-          class="fname p-4 mb-6 border rounded-md placeholder:text-blue-dark placeholder:font-semibold placeholder:text-sm border-gray"
-          id="fname" placeholder="First Name">
-        <input type="text"
-          class="lname p-4 mb-6 border rounded-md placeholder:text-blue-dark placeholder:font-semibold placeholder:text-sm border-gray"
-          id="lname" placeholder="Last Name">
-        <input type="text"
-          class="email p-4 mb-6 border rounded-md placeholder:text-blue-dark placeholder:font-semibold placeholder:text-sm border-gray"
-          id="email" placeholder="Email Address">
-        <input type="password"
-          class="password p-4 mb-6 border rounded-md placeholder:text-blue-dark placeholder:font-semibold placeholder:text-sm border-gray"
-          id="password" placeholder="Password ">
+        <div class="flex w-full relative">
+          <input type="text"
+            class="fname p-4 mb-6 border rounded-md placeholder:text-blue-dark placeholder:font-semibold placeholder:text-sm border-gray w-full"
+            id="fname" placeholder="First Name"> <img class="hidden absolute top-4 right-4" src="images/icon-error.svg"
+            alt="icon-error"> <p class="hidden absolute text-xs text-red top-14 right-4">First Name cannot be empty</p>
+        </div>
+        <div class="flex w-full relative">
+          <input type="text"
+            class="lname p-4 mb-6 border rounded-md placeholder:text-blue-dark placeholder:font-semibold placeholder:text-sm w-full border-gray"
+            id="lname" placeholder="Last Name"> <img class="hidden absolute top-4 right-4" src="/images/icon-error.svg"
+            alt="icon-error"> <p class="hidden absolute text-xs text-red top-14 right-4">Last Name cannot be empty</p>
+        </div>
+        <div class="flex w-full relative">
+          <input type="text"
+            class="email p-4 mb-6 border rounded-md placeholder:text-blue-dark placeholder:font-semibold w-full placeholder:text-sm border-gray"
+            id="email" placeholder="Email Address"> <img class="hidden absolute top-4 right-4" src="/images/icon-error.svg"
+            alt="icon-error">
+            <p class="hidden absolute text-xs text-red top-14 right-4">Looks like this is not an email</p>
+        </div>
+        <div class="flex w-full relative">
+          <input type="password"
+            class="password p-4 mb-6 border rounded-md placeholder:text-blue-dark placeholder:font-semibold w-full placeholder:text-sm border-gray"
+            id="password" placeholder="Password "> <img class="hidden absolute top-4 right-4" src="/images/icon-error.svg"
+            alt="icon-error"> <p class="hidden absolute text-xs text-red top-14 right-4">Password cannot be empty</p>
+        </div>
+
         <button
           class="p-4 mb-6 border rounded-md border-green-default bg-green-default hover:bg-green-light text-sm font-semibold text-white">Claim
           your free trial</button>
