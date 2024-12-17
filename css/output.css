@@ -843,6 +843,10 @@ video {
     align-items: flex-start;
   }
 
+  .lg\:bg-desktop {
+    background-image: url('/images/bg-intro-desktop.png');
+  }
+
   .lg\:text-left {
     text-align: left;
   }
