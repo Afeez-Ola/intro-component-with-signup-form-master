@@ -11,7 +11,8 @@ module.exports = {
         },
         red: "hsl(0, 100%, 74%)",
         green: "hsl(154, 59%, 51%)",
-        white: "#FFFFFF"
+        white: "#FFFFFF",
+        gray: "#DEDEDE"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"]
