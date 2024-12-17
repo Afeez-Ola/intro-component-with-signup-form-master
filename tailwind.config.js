@@ -10,7 +10,10 @@ module.exports = {
           default: "hsl(248, 32%, 49%)"
         },
         red: "hsl(0, 100%, 74%)",
-        green: "hsl(154, 59%, 51%)",
+        green: {
+          light: "#77E2B3",
+          default: "hsl(154, 59%, 51%)",
+        } ,
         white: "#FFFFFF",
         gray: "#DEDEDE"
       },
