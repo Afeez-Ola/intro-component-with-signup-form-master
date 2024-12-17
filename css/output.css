@@ -604,6 +604,14 @@ video {
   width: 91.666667%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -646,6 +654,11 @@ video {
   background-color: hsl(248 32% 49% / var(--tw-bg-opacity, 1));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
 .bg-mobile {
   background-image: url('/images/bg-intro-mobile.png');
 }
@@ -656,6 +669,11 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .text-center {
