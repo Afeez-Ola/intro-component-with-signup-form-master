@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["/index.html", "/css"],
+  content: ["./index.html", "/css"],
   theme: {
     extend: {
       colors: {
@@ -9,12 +9,16 @@ module.exports = {
           light: "hsl(246, 25%, 77%)",
           default: "hsl(248, 32%, 49%)"
         },
-        red: "hsl(0, 100%, 74%) ",
-        green: "hsl(154, 59%, 51%)"
-
+        red: "hsl(0, 100%, 74%)",
+        green: "hsl(154, 59%, 51%)",
+        white: "#FFFFFF"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"]
+      },
+      backgroundImage: {
+        mobile: "url('/images/bg-intro-mobile.png')",
+        desktop: "url('/images/bg-intro-desktop.png')",
       }
     },
   },
